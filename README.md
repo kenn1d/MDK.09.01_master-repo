@@ -1,4 +1,4 @@
-# Практическая работа 09.01 (PHP)
+# Практические работы по МДК.09.01 (PHP)
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat-square&logo=php&logoColor=white" alt="PHP">
