@@ -1,0 +1,11 @@
+.line1, .line2 {
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.line1 {
+    background-color: aqua;
+}
+.line2 {
+    background-color: aquamarine;
+}

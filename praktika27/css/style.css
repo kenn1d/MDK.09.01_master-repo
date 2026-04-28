@@ -1,0 +1,56 @@
+
+body {
+    background: rgb(186, 97, 196);
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form input {
+    background: none;
+    border-bottom: solid 1px rgb(186, 97, 196);
+    width: 100%;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.button {
+    background: rgb(186, 97, 196);
+    padding: 10px 15px 10px 15px;
+    width: 200px;
+    color: white;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error {
+    background: green;
+    position: absolute;
+    width: 30%;
+    left: 34%;
+    right: 32%;
+    top: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+.error span {
+    display: block;
+    float: right;
+    color: white;
+    cursor: pointer;
+}

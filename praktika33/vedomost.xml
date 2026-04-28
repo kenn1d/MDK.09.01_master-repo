@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <createdAt>2025-08-15T09:30:00Z</createdAt>
+    <tovar-list>
+        <tovar id="tovar1">
+            <name>Кофе</name>
+            <desc>Арабика, 250г</desc>
+            <price>450.00</price>
+            <count>2</count>
+            <weight>0.5</weight>
+        </tovar>
+        <tovar id="tovar2">
+            <name>Чай</name>
+            <desc>Зелёный листовой</desc>
+            <price>120.50</price>
+            <count>5</count>
+            <weight>0.1</weight>
+        </tovar>
+        <tovar id="tovar3">
+            <name>Сахар</name>
+            <desc>Тросниковый</desc>
+            <price>85.00</price>
+            <count>10</count>
+            <weight>1.0</weight>
+        </tovar>
+        <tovar id="tovar4">
+            <name>Печенье</name>
+            <desc>Овсяное с изюмом</desc>
+            <price>150.00</price>
+            <count>3</count>
+            <weight>0.3</weight>
+        </tovar>
+        <tovar id="tovar5">
+            <name>Кружка</name>
+            <desc>Керамика, 300мл</desc>
+            <price>210.00</price>
+            <count>1</count>
+            <weight>0.4</weight>
+        </tovar>
+    </tovar-list>
+</invoice>

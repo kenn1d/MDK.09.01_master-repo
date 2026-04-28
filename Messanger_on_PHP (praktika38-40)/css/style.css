@@ -1,0 +1,200 @@
+html {
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body {
+    width: 480px;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 480px;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form input {
+    background: none;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px 10px 15px;
+    width: 200px;
+    color: black;
+    cursor: pointer;
+}
+
+.logout_bth {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.error {
+    background: rgb(255, 0, 0);
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+.error span {
+    display: block;
+    float: right;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Список чатов */
+.chats {
+    width: 300px;
+    border-right: 1px solid #eee;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.chats-title {
+    padding: 15px;
+    margin: 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.2s;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.chat-info {
+    overflow-y: hidden;
+}
+
+.chat-name {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chat-last-msg {
+    font-size: 0.85rem;
+    color: #888;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Сообщения */
+.messages {
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+
+.author {
+    color: rgb(0, 17, 255);
+    margin-right: 5px;
+}
+
+.time {
+    color: #999;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+/* Кнопка отправить */
+.send-zone {
+    background: #fff;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    border-radius: 0 0 10px 10px;
+}
+
+.send-form textarea {
+    margin-top: 10px;
+    width: 200px;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    height: 40px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.send-form textarea:focus {
+    border-color: rgb(186, 97, 196);
+}
+
+.send-form button {
+    background: rgb(186, 97, 196);
+    width: 100px;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.send-form button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}

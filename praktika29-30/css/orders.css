@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 { 
+    font-weight: normal; 
+    margin-bottom: 30px; 
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    border: 1px solid #000;
+}
+
+.menu li {
+    flex: 1;
+    border-right: 1px solid #000;
+}
+
+.menu li:last-child { 
+    border-right: none; 
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.active { 
+    background-color: #e0e0e0;
+}
+
+.orders {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.order-table th {
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.order-table td {
+    padding: 15px 0;
+    vertical-align: top;
+}
+
+.order-number {
+    font-weight: bold;
+    width: 30%;
+}
+
+.product-names { 
+    width: 40%; 
+}
+.prices { 
+    width: 30%; 
+}
+
+.total-label {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.total-sum {
+    font-weight: normal;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+}
+
+.footer-line {
+    border-top: 2px solid #000;
+    max-width: 800px;
+    margin: 0 auto 10px;
+}
